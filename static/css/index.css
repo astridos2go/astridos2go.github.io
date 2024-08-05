@@ -1,0 +1,13 @@
+:root {
+  --bs-font-sans-serif: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1 !important; /* fix for Chrome */
+  --bs-primary: #269DCE !important;
+  --bs-blue: #269DCE!important;
+  --bs-primary-rgb: 38, 157, 206 !important;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    --bs-font-sans-serif: InterVariable, sans-serif !important;
+  }
+}
